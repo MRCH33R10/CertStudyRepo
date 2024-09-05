@@ -1,2 +1,77 @@
 https://testoutce.com/pages/free-comptia-linux-practice-test-xk0-004-exam-1
 
+	
+1. Which system component verifies the hardware and passes control of the computer to the boot loader?	
+
+    OS kernel //handles interactions between applications and computer's CPU, Memory, Disks and Devices
+    CMOS //CMOS (Complementary Metal-Oxide-Semiconductor) small amount of data that stores the BIOS settings
+    Init //First process when booting unix based OS's(MacOS and Linux; Windows is a proprietary kernal), responsible during booting for initializing processes (https://www.youtube.com/watch?v=lDdVUlXLjx8; https://www.youtube.com/watch?v=N1vgvhiyq0E)
+    *BIOS //BIOS (basic input/output system) is the program a computer's microprocessor uses to start the computer system after it is powered on, verifies system hardware
+
+2. In which boot process stage is the root partition mounted?	
+
+    systemd //systemd is a suite of basic building blocks for a Linux system, runs PID1, first program to be opened(https://en.wikipedia.org/wiki/Systemd)
+    BIOS
+    Boot loader //Boot loader is a vendor-proprietary image responsible for bringing up the kernel on a device; the kernel then launches init
+    *OS kernel
+
+3. You have partitioned and formatted a new hard drive, sdc. You want to mount the first partition on sdc to directory /mnt/newdisk. Which command will perform the mount correctly?	
+
+    mount /dsk/sdc_first /mnt/newdisk
+    mount /dev/sdc /mnt/newdisk
+    *mount /dev/sdc1 /mnt/newdisk
+    mount /mnt/newdisk /dev/sdc1
+    mount /sdc1 /mnt/newdisk
+
+4. Which of the following are true about the ASCII character set? (Choose TWO)	
+
+    *Uses a seven-bit encoding technique.
+    Is not compatible with UTF-8.
+    *Does not include international symbols.
+    Support international characters.
+    Uses a variable-length encoding standard.
+
+5. You obtain your applications and updates in RPM format. Which Red Hatof the following distributions is your system based on?	
+
+    Slackware
+    *Red Hat
+    Xandros
+    Debian
+
+6. Which of the following systemd unit-specific sections describes how to manage services or applications on the server?	
+
+    Automount
+    *Socket
+    Service
+    Mount
+
+7. You would like to make it harder for malicious users to gain access to sensitive information. Which of the following techniques can be used to remap the root directory to include only certain directories and files?	
+
+    *chroot jail SSH
+    PKI
+    SSH certificate
+    One-time password
+
+8. Your site is dependent upon the use of the rlogin utility for remote access. For security reasons, you want to prevent the hosts in the marketing department from accessing the payroll server, but allow all others to do so.
+
+Which of the following files should you use to create this restriction?	
+
+    hosts.deny
+    *hosts.allow
+    hostname
+    hosts
+
+9. Which utility would you use to view current connections and active sessions and ports on a computer?	
+
+    ip route
+    *ipconfig
+    nslookup
+    netstat
+
+10. Which of the following commands verifies that TCP/IP is working correctly on the local computer?	
+
+    ping 127.0.0.1
+    nslookup localhost
+    ping -a localhost
+    netstat
+
